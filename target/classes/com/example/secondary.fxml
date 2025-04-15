@@ -1,0 +1,42 @@
+<!--
+File: secondary.fxml
+Author: Mihucza Gergő
+Copyright: 2025, Mihucza Gergő
+Group: Szoft II-2-N
+Date: 2021-04-14
+Github: https://github.com/MihuczaGergo/
+Licenc: MIT
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.secondaryController">
+   <children>
+      <Label layoutX="257.0" layoutY="37.0" text="Névjegy">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="120.0" text="Készítő: Mihucza Gergő">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="173.0" text="Készítés dátuma: 2025.04.14">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="226.0" text="Osztály: Szoft II-2-N">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="274.0" layoutY="326.0" mnemonicParsing="false" onAction="#onClickBackButton" text="Vissza" />
+   </children>
+</Pane>
